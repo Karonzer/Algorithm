@@ -7,10 +7,13 @@
       "RelativeMoniker": "D:0:0:{A45624A9-808E-4B9F-B4BC-BA37B0A0A46A}|Algorithm.vcxproj|solutionrelative:Algorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5809B1F-F1D4-42FB-A53F-31DAC9786975}|..\\Algorithm_4\\Algorithm_4.vcxproj|C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_4\\Algorithm_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BEA32B14-4F55-45B2-887D-B8941BD7EC86}|..\\Algorithm_5\\Algorithm_5.vcxproj|C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_5\\Algorithm_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F34E15B1-C42B-428F-9DA4-5D347157D52A}|..\\Algorithm_3\\Algorithm_3.vcxproj|C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_3\\Algorithm_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5809B1F-F1D4-42FB-A53F-31DAC9786975}|..\\Algorithm_4\\Algorithm_4.vcxproj|C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_4\\Algorithm_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C22EFAB-EB9B-4F35-88BC-C3D2655A65D9}|..\\Algorithm_2\\Algorithm_2.vcxproj|C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_2\\Algorithm_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -26,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,12 +42,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Algorithm_5.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_5\\Algorithm_5.cpp",
+              "RelativeDocumentMoniker": "..\\Algorithm_5\\Algorithm_5.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_5\\Algorithm_5.cpp",
+              "RelativeToolTip": "..\\Algorithm_5\\Algorithm_5.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-14T10:08:37.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Algorithm_4.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_4\\Algorithm_4.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_4\\Algorithm_4.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_4\\Algorithm_4.cpp",
               "RelativeToolTip": "..\\Algorithm_4\\Algorithm_4.cpp",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-13T10:37:58.636Z",
               "EditorCaption": ""
@@ -57,14 +73,14 @@
               "RelativeDocumentMoniker": "..\\Algorithm_3\\Algorithm_3.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_3\\Algorithm_3.cpp",
               "RelativeToolTip": "..\\Algorithm_3\\Algorithm_3.cpp",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-13T09:43:52.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Algorithm_2.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_2\\Algorithm_2.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_2\\Algorithm_2.cpp",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "..\\Algorithm_2\\Algorithm_2.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-13T09:43:17.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T09:43:17.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Algorithm_1.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_1\\Algorithm_1.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_1\\Algorithm_1.cpp",
@@ -85,8 +100,7 @@
               "RelativeToolTip": "..\\Algorithm_1\\Algorithm_1.cpp",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-12T10:14:20.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T10:14:20.616Z"
             },
             {
               "$type": "Document",
@@ -96,7 +110,7 @@
               "RelativeDocumentMoniker": "Algorithm.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm\\Algorithm.cpp",
               "RelativeToolTip": "Algorithm.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-12T09:10:06.993Z",
               "EditorCaption": ""
