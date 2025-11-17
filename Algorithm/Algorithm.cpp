@@ -5,42 +5,68 @@ using namespace std;
 
 void sieve(int n)
 {
-	int* list = new int[n];
-	bool* boollist = new bool[n];
+	//bool* boollist = new bool[n + 1];
 
-	for (int i = 0; i < n;i++)
-	{
-		list[i] = i + 1;
-		boollist[i] = true;
-	}
-
-	list[0] = 0;
-
-	for (int i = 1; i < n;i++)
-	{
-		if (!boollist[i])
-		{
-			continue;
-		}
-
-		int j = list[i] + list[i];
-		int x = list[i];
-
-		for (int j = list[i] * list[i]; j < n; j += list[i]) {
-			cout << j << " ";
-		}
-
-	}
-
-	//for (int i = 0; i < n;i++)
+	//for (int i = 2; i <= n;i++)
 	//{
-	//	cout << list[i] << " ";
+	//	boollist[i] = true;
 	//}
 
-	delete list;
-	delete boollist;
+
+	//for (int i = 2; i <= n;i++)
+	//{
+	//	if (!boollist[i])
+	//	{
+	//		continue;
+	//	}
+
+
+
+	//	for (int j = i * i; j <= n; j += i) 
+	//	{
+	//		boollist[j] = false;
+	//	}
+
+	//}
+
+	//for (int i = 2; i<= n;i++)
+	//{
+	//	if (boollist[i])
+	//	{
+	//		cout << i << " ";
+	//	}
+	//}
+
+
+	//delete[] boollist;
+
+	bool* isPrime = new bool[n + 1];
+
+	for (int i = 2; i <= n; i++)
+		isPrime[i] = true;
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (isPrime[i])
+		{
+			// i의 배수 제거
+			for (int j = i * i; j <= n; j += i)
+				isPrime[j] = false;
+		}
+	}
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (isPrime[i])
+			cout << i << " ";
+	}
+
+	delete[] isPrime;
 
 }
+
+
+
 
 
 int main()
