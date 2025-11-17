@@ -1,73 +1,83 @@
 ﻿
 #include <iostream>
-#include <vector>
+
 using namespace std;
+
+void sieve(int n)
+{
+	int* list = new int[n];
+	bool* boollist = new bool[n];
+
+	for (int i = 0; i < n;i++)
+	{
+		list[i] = i + 1;
+		boollist[i] = true;
+	}
+
+	list[0] = 0;
+
+	for (int i = 1; i < n;i++)
+	{
+		if (!boollist[i])
+		{
+			continue;
+		}
+
+		int j = list[i] + list[i];
+		int x = list[i];
+
+		for (int j = list[i] * list[i]; j < n; j += list[i]) {
+			cout << j << " ";
+		}
+
+	}
+
+	//for (int i = 0; i < n;i++)
+	//{
+	//	cout << list[i] << " ";
+	//}
+
+	delete list;
+	delete boollist;
+
+}
+
+
 int main()
 {
 
-#pragma region 유클리드 호제법
-	//2개의 자연수 또는 정식의 최대 공약수를 구하는 방식으로
-	// 두 수가 서로 상대방 수를 나누어서 원하는 수을 얻어내는 알고리즘
+#pragma region 에라토스테네스의 체
+	//int index[] = { 0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 };
+	//int size = sizeof(index) / sizeof(int);
 
-	int x = 24;
-	int y = 36;
 
-	int result = 0;
-	for (int i = 1; i <= x && i <= y;i++)
-	{
-		if (x % i == 0 && y % i == 0)
-		{
-			result = i;
-		}
-	}
-
-	cout << result << endl;
-
-	//vector<int> xlist;
-	//vector<int> ylist;
-
-	//for (int i = 1; i < x; i++)
+	//for (int i = 1; i < size;i++)
 	//{
-	//	if ((x % i) == 0)
-	//	{
-	//		xlist.push_back(i);
-	//	}
-	//}
+	//	bool isPrime = true;
 
-	//for (int i = 1; i < y; i++)
-	//{
-	//	if ((y % i) == 0)
-	//	{
-	//		ylist.push_back(i);
-	//	}
-	//}
 
-	//int findIndex = 0;
-	//for (int i = 0; i < xlist.size(); i++)
-	//{
-	//	for (int j = 0; j < ylist.size(); j++)
-	//	{
-	//		if (xlist[i] == ylist[j])
+	//	for (int j = 2; j  < index[i]; j++) {
+	//		if (index[i] % j == 0) 
 	//		{
-	//			findIndex = xlist[i];
+	//			isPrime = false;
+	//			break;
 	//		}
 	//	}
+
+	//	if (!isPrime)
+	//	{
+	//		index[i] = 0;
+	//	}
+
 	//}
 
 
-
-	//cout << findIndex << endl;
-
-	//while (y != 0)
+	//for (auto a : index)
 	//{
-	//	int temp = x % y;
-	//	x = y;
-	//	y = temp;
+	//	cout << a << " ";
 	//}
 
-	//cout << x << endl;
-
-
+	sieve(50);
 
 #pragma endregion
 	return 0;
