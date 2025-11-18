@@ -1,109 +1,35 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
-void sieve(int n)
+int max(int _list[], int _left, int _right)
 {
-	//bool* boollist = new bool[n + 1];
 
-	//for (int i = 2; i <= n;i++)
-	//{
-	//	boollist[i] = true;
-	//}
-
-
-	//for (int i = 2; i <= n;i++)
-	//{
-	//	if (!boollist[i])
-	//	{
-	//		continue;
-	//	}
-
-
-
-	//	for (int j = i * i; j <= n; j += i) 
-	//	{
-	//		boollist[j] = false;
-	//	}
-
-	//}
-
-	//for (int i = 2; i<= n;i++)
-	//{
-	//	if (boollist[i])
-	//	{
-	//		cout << i << " ";
-	//	}
-	//}
-
-
-	//delete[] boollist;
-
-	bool* isPrime = new bool[n + 1];
-
-	for (int i = 2; i <= n; i++)
-		isPrime[i] = true;
-
-	for (int i = 2; i <= n; i++)
-	{
-		if (isPrime[i])
-		{
-			// i의 배수 제거
-			for (int j = i * i; j <= n; j += i)
-				isPrime[j] = false;
-		}
-	}
-
-	for (int i = 2; i <= n; i++)
-	{
-		if (isPrime[i])
-			cout << i << " ";
-	}
-
-	delete[] isPrime;
-
+	return 0;
 }
-
-
-
-
 
 int main()
 {
 
-#pragma region 에라토스테네스의 체
-	//int index[] = { 0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 };
-	//int size = sizeof(index) / sizeof(int);
+#pragma region 분할 정복
+	// 주어진 2개 이상의 부분으로 문제를 나눈 뒤 각 부분
+	// 문제에 대한 답을 재귀로 호출하여 계산한 다음
+	// 답으로 부터 전체 문제의 답을 계산하는 알고리즘
 
+	// 분할(divide) : 주어진 문제를 두 개 홍은 그 이상의 형식으로 나눈다
 
-	//for (int i = 1; i < size;i++)
-	//{
-	//	bool isPrime = true;
+	// 정복(conquer) : 나누어진 문제를 재귀적으로 해결해서 나누어진 문제를 
+	// 더 이상 나누어서 문제가 필요 없을 때까지 계속 분할합니다.
 
+	// 통합 (combine) : 나누어서 해결한 문제를을 통햅해서 원래 문제의 해답을 생성합니다.
 
-	//	for (int j = 2; j  < index[i]; j++) {
-	//		if (index[i] % j == 0) 
-	//		{
-	//			isPrime = false;
-	//			break;
-	//		}
-	//	}
+	int index[] = { 20,15,99,1};
+	int size = sizeof(index) / sizeof(int);
+	int left = 0;
+	int right = size;
+	cout << left << " " << right;
+	int count = max(index, left, right);
 
-	//	if (!isPrime)
-	//	{
-	//		index[i] = 0;
-	//	}
-
-	//}
-
-
-	//for (auto a : index)
-	//{
-	//	cout << a << " ";
-	//}
-
-	sieve(50);
 
 #pragma endregion
 	return 0;
