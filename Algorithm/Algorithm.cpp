@@ -1,70 +1,62 @@
 ﻿#include <iostream>
+#include <vector>
 using namespace std;
 
-void combine(int _list[], int _start, int _mid, int _end)
+unsigned int fibonaci(int _n, int _list[])
 {
-	int left = _start;
-	int right = _mid + 1;
-	int count = 0;
-	int* container = new int[_end - _start + 1]();
-
-	while (left <= _mid && right <= _end)
+	if (_n <= 1)
 	{
-		if (_list[left] < _list[right])
+		return _n;
+	}
+	else
+	{
+		if (_list[_n] > 0)
 		{
-			container[count++] = _list[left++];
+			return _list[_n];
 		}
 		else
 		{
-			container[count++] = _list[right++];
+			return _list[_n] = fibonaci(_n - 1, _list) + fibonaci(_n - 2, _list);
 		}
 	}
-
-
-	while (left <= _mid)
-	{
-		container[count++] = _list[left++];
-	}
-
-	while (right <= _end)
-	{
-		container[count++] = _list[right++];
-	}
-
-	for (int i = _start;i <= _end;i++)
-	{
-		_list[i] = container[i - _start];
-	}
-	delete[] container;
 }
 
 
-void merge_sort(int _list[], int _start, int _end)
-{
-	if (_start != _end)
-	{
-		int mid = (_start + _end) / 2;
-		merge_sort(_list, _start, mid);
-		merge_sort(_list, mid+ 1 , _end);
-		combine(_list, _start, mid, _end);
-	}
 
-
-}
 
 int main()
 {
 
-#pragma region 합병 정렬
+#pragma region 동적 계획법
+	// 하나의 큰 문제를 여러개의 작은 문제로 나누어서 그결과를
+	// 저장하여 다시 큰 문제를 해결할 때 사용하는 알고리즘입니다
 
-	int index[] = { 3,5,2,7,4,1,8,6 };
-	int size = sizeof(index) / sizeof(int);
-	merge_sort(index, 0, size - 1);
-	
+	// 겹치는 부분 문제
+	// 동일한 작은 문제들이 반복하여 나타나는 경우를 의미합니다.
+
+	// 최적 부분 구조 
+	// 부분 문제의 최적 결과 값을 사용하여 전체 문제의 최적의
+	// 결과를 낼 수 있는 경우를 의미합니다.
+
+	// 메모이제이션
+	// 프로그램이 동일한 계산을 반복해야 할 때 이전에 계산한 값을
+	// 메모미에 저장함으로써 동일한 계산을 반복 수행하는 작업을
+	// 제거하여 프로그램의 실행 속도를 항상 시키는 방법입니다.
+
+	int size = 100;
+	int index[100 + 1] = { 0 };
+	index[0] = 0;
+	index[1] = 1;
+
+
 	for (int i = 0; i < size;i++)
 	{
-		cout << index[i] << " ";
+		cout << fibonaci(i, index) << " ";
 	}
+
+
+
+
 
 #pragma endregion
 
