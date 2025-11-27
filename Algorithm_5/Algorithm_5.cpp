@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-#pragma region
+#pragma region 삽입 정렬
 	int index[] = { 4,7,8,1,2,3,6,9,5 };
 	int size = sizeof(index) / sizeof(int);
 

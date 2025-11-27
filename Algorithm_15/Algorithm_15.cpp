@@ -26,7 +26,7 @@ public:
 
 	void search(const T _start)
 	{
-		if (auto check = visited.find(_start) == visited.end())
+		if (visited.find(_start) == visited.end())
 		{
 			visited.insert(_start);
 			cout << _start << " ";
