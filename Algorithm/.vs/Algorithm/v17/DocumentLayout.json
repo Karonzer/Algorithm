@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A45624A9-808E-4B9F-B4BC-BA37B0A0A46A}|Algorithm.vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm\\Algorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A45624A9-808E-4B9F-B4BC-BA37B0A0A46A}|Algorithm.vcxproj|solutionrelative:Algorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{012859A0-B5DF-45F0-8766-8AC76661DD62}|..\\Algorithm_16\\Algorithm_16.vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_16\\Algorithm_16.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -101,11 +97,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Algorithm_16.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_16\\Algorithm_16.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_16\\Algorithm_16.cpp",
@@ -113,11 +109,12 @@
               "RelativeToolTip": "..\\Algorithm_16\\Algorithm_16.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-27T10:08:35.921Z"
+              "WhenOpened": "2025-11-27T10:08:35.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Algorithm_13.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_13\\Algorithm_13.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_13\\Algorithm_13.cpp",
@@ -129,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Algorithm_14.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_14\\Algorithm_14.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_14\\Algorithm_14.cpp",
@@ -141,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Algorithm_12.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_12\\Algorithm_12.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_12\\Algorithm_12.cpp",
@@ -153,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Algorithm_11.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_11\\Algorithm_11.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_11\\Algorithm_11.cpp",
@@ -165,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Algorithm_10.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_10\\Algorithm_10.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_10\\Algorithm_10.cpp",
@@ -177,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Algorithm_9.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_9\\Algorithm_9.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_9\\Algorithm_9.cpp",
@@ -189,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Algorithm_8.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_8\\Algorithm_8.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_8\\Algorithm_8.cpp",
@@ -201,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Algorithm_5.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_5\\Algorithm_5.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_5\\Algorithm_5.cpp",
@@ -213,20 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Algorithm.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm\\Algorithm.cpp",
-              "RelativeDocumentMoniker": "Algorithm.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm\\Algorithm.cpp",
-              "RelativeToolTip": "Algorithm.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-12T09:10:06.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Algorithm_6.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_6\\Algorithm_6.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_6\\Algorithm_6.cpp",
@@ -238,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Algorithm_4.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_4\\Algorithm_4.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_4\\Algorithm_4.cpp",
@@ -250,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Algorithm_15.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_15\\Algorithm_15.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_15\\Algorithm_15.cpp",
@@ -262,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Algorithm_3.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_3\\Algorithm_3.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_3\\Algorithm_3.cpp",
@@ -274,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Algorithm_2.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_2\\Algorithm_2.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_2\\Algorithm_2.cpp",
@@ -286,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Algorithm_1.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Algorithm_1\\Algorithm_1.cpp",
               "RelativeDocumentMoniker": "..\\Algorithm_1\\Algorithm_1.cpp",
@@ -298,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Algorithm_14.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_14\\Algorithm_14.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_14\\Algorithm_14.cpp",
@@ -310,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "Algorithm_13.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_13\\Algorithm_13.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_13\\Algorithm_13.cpp",
@@ -322,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Algorithm_8.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_8\\Algorithm_8.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_8\\Algorithm_8.cpp",
@@ -334,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Algorithm_9.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_9\\Algorithm_9.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_9\\Algorithm_9.cpp",
@@ -346,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Algorithm_7.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_7\\Algorithm_7.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_7\\Algorithm_7.cpp",
@@ -358,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Algorithm_6.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_6\\Algorithm_6.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_6\\Algorithm_6.cpp",
@@ -369,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Algorithm_4.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_4\\Algorithm_4.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_4\\Algorithm_4.cpp",
@@ -381,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "Algorithm_3.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_3\\Algorithm_3.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_3\\Algorithm_3.cpp",
@@ -393,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "Algorithm_1.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_1\\Algorithm_1.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_1\\Algorithm_1.cpp",
@@ -405,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Algorithm_2.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_2\\Algorithm_2.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_2\\Algorithm_2.cpp",
@@ -417,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Algorithm_5.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_5\\Algorithm_5.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_5\\Algorithm_5.cpp",
@@ -429,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "Algorithm_10.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_10\\Algorithm_10.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_10\\Algorithm_10.cpp",
@@ -441,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "Algorithm_11.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_11\\Algorithm_11.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_11\\Algorithm_11.cpp",
@@ -453,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Algorithm_12.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\qe\\Algorithm\\Algorithm_12\\Algorithm_12.cpp",
               "RelativeDocumentMoniker": "..\\..\\qe\\Algorithm\\Algorithm_12\\Algorithm_12.cpp",

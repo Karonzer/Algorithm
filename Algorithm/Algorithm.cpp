@@ -1,8 +1,8 @@
 ﻿#include <iostream>
-#include <queue>
 #include <unordered_set>
 #include <unordered_map>
 #include <vector>
+#include <queue>
 using namespace std;
 
 template<typename T>
@@ -22,10 +22,54 @@ public:
 		vertices.insert(_i);
 		vertices.insert(_j);
 
-		if (!list.count(_i))
+		if (!degree.count(_i))
 		{
-			degree[_i] += 0;
+			degree[_i] = 0;
 		}
+	}
+
+	void Sort()
+	{
+		queue<T> temp;
+		int count = 0;
+		for (auto value : degree)
+		{
+			if (value.second == 0)
+			{
+				temp.push(value.first);
+			}
+		}
+
+		if(temp.empty())
+		{
+			cout << "a cycle has occurrend" << endl;
+		}
+
+		while (!temp.empty())
+		{
+			T value = temp.front();
+			temp.pop();
+
+			cout << value << " ";
+			count += 1;
+
+			for (int i = 0;i < list[value].size();i++)
+			{
+				degree[list[value][i]] -= 1;
+				if (degree[list[value][i]] == 0)
+				{
+					temp.push(list[value][i]);
+				}
+			}
+		}
+
+
+		if (count != vertices.size())
+		{
+			cout << "a cycle has occurrend" << endl;
+		}
+
+
 	}
 };
 
@@ -52,7 +96,23 @@ int main()
 
 	//진입 차수
 
+	Graph<int> graph;
 
+	graph.insert(1, 2);
+	graph.insert(1, 5);
+
+	graph.insert(2, 3);
+
+	graph.insert(3, 4);
+
+	graph.insert(4, 6);
+
+	graph.insert(5, 6);
+
+	graph.insert(6, 7);
+
+
+	graph.Sort();
 
 #pragma endregion
 
