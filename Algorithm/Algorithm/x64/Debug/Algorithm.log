@@ -1,2 +1,6 @@
 ﻿  Algorithm.cpp
+C:\Users\Administrator\Desktop\Algorithm\Algorithm\Algorithm.cpp(8,9): warning C4005: 'INFINITY': 매크로 재정의
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_math.h(94,9):
+      'INFINITY'의 이전 정의를 참조하십시오.
+  
   Algorithm.vcxproj -> C:\Users\Administrator\Desktop\Algorithm\Algorithm\x64\Debug\Algorithm.exe
